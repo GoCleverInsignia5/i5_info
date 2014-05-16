@@ -1,0 +1,21 @@
+
+=========================================
+(1) WCN SDIO SLOT is at msdc<3>
+-----------------------------------------
+(2) clk settings 
+mt6589 only using internal clock
+-----------------------------------------
+(3) settings of driving current 
+driving current is <0>
+-----------------------------------------
+(4) edge settings 
+cmd_edge is falling 
+data_edge is falling 
+-----------------------------------------
+(5) data delay info
+Read (MSDC_DAT_RDDLY0) is <0xf0f0f0f> and (MSDC_IOCON_DDLSEL) is <0x0>
+data0<0xf>  data1<0xf>  data2<0xf>  data3<0xf>
+Write is <0xf>
+Cmd is <0xf>
+=========================================
+

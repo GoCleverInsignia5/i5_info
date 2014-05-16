@@ -1,0 +1,90 @@
+Node 0, zone   Normal
+  pages free     38277
+        min      696
+        low      870
+        high     1044
+        scanned  0
+        spanned  122368
+        present  121412
+    nr_free_pages 38277
+    nr_inactive_anon 7
+    nr_active_anon 11
+    nr_inactive_file 48415
+    nr_active_file 14839
+    nr_unevictable 0
+    nr_mlock     0
+    nr_anon_pages 0
+    nr_mapped    16636
+    nr_file_pages 63256
+    nr_dirty     0
+    nr_writeback 0
+    nr_slab_reclaimable 3343
+    nr_slab_unreclaimable 4112
+    nr_page_table_pages 2303
+    nr_kernel_stack 842
+    nr_unstable  0
+    nr_bounce    0
+    nr_vmscan_write 0
+    nr_vmscan_immediate_reclaim 0
+    nr_writeback_temp 0
+    nr_isolated_anon 0
+    nr_isolated_file 0
+    nr_shmem     18
+    nr_dirtied   3704
+    nr_written   3697
+    nr_anon_transparent_hugepages 0
+        protection: (0, 4038, 4038)
+  pagesets
+    cpu: 0
+              count: 145
+              high:  186
+              batch: 31
+  vm stats threshold: 6
+  all_unreclaimable: 0
+  start_pfn:         524288
+  inactive_ratio:    1
+Node 0, zone  HighMem
+  pages free     13452
+        min      126
+        low      311
+        high     496
+        scanned  0
+        spanned  136448
+        present  129238
+    nr_free_pages 13452
+    nr_inactive_anon 505
+    nr_active_anon 67081
+    nr_inactive_file 21947
+    nr_active_file 3063
+    nr_unevictable 0
+    nr_mlock     11634
+    nr_anon_pages 67581
+    nr_mapped    26151
+    nr_file_pages 25020
+    nr_dirty     0
+    nr_writeback 0
+    nr_slab_reclaimable 0
+    nr_slab_unreclaimable 0
+    nr_page_table_pages 0
+    nr_kernel_stack 0
+    nr_unstable  0
+    nr_bounce    0
+    nr_vmscan_write 0
+    nr_vmscan_immediate_reclaim 0
+    nr_writeback_temp 0
+    nr_isolated_anon 0
+    nr_isolated_file 0
+    nr_shmem     10
+    nr_dirtied   10116
+    nr_written   10109
+    nr_anon_transparent_hugepages 0
+        protection: (0, 0, 0)
+  pagesets
+    cpu: 0
+              count: 160
+              high:  186
+              batch: 31
+  vm stats threshold: 6
+  all_unreclaimable: 0
+  start_pfn:         646656
+  inactive_ratio:    1

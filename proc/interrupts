@@ -1,0 +1,69 @@
+           CPU0       
+ 14:       8181         -  debug-signal
+ 29:      85682         -  timer
+ 64:      67105         -  mt_usb
+ 70:          4         -  mtk-thermal
+ 71:      11846         -  mtk-msdc
+ 72:       5086         -  mtk-msdc
+ 74:       5001         -  mtk-msdc
+ 76:      22407         -  mt-i2c
+ 77:        126         -  mt-i2c
+ 78:          0         -  mt-i2c
+ 79:      17074         -  mt-i2c
+ 80:          0         -  mt-i2c
+ 81:          0         -  mt-i2c
+ 82:          0         -  mt-i2c
+ 85:        118         -  mtk-uart
+ 86:          0         -  mtk-uart
+ 89:          0         -  GDMA1
+ 90:          0         -  GDMA2
+105:       1214         -  mtk-uart
+106:       1751         -  mtk-uart
+110:          0         -  mt-spi.0
+117:        238         -  PTP
+126:          0         -  mt_emi_mpu, spc, mt6577_devapc
+136:          0         -  Afe_ISR_Handle
+137:          0         -  M4U_device
+138:          0         -  M4U_device
+139:          0         -  M4U_device
+140:          0         -  M4U_device
+144:          0         -  mt-spm
+145:         18         -  mt6589-gpt
+146:       4271         -  CCIF
+148:      15892         -  EINT
+160:          0         -  pmic_wrap
+161:          0         -  mtk-kpd
+168:          0         -  Vcodec
+169:          0         -  MAU0
+172:          0         -  Vcodec
+173:          0         -  MAU1
+176:          0         -  gfmt_driver
+179:          1         -  jpeg_enc_driver
+180:        188         -  jpeg_dec_driver
+183:         32         -  isp
+186:          0         -  MAU3
+188:          0         -  MAU4
+192:       3870         -  mtk_disp
+193:          0         -  mtk_disp
+194:          0         -  mtk_disp
+195:      27680         -  mtk_disp
+196:          0         -  mtk_disp
+197:          0         -  mtk_disp
+198:      71518         -  mtk_disp
+199:          0         -  mtk_disp
+200:          0         -  mtk_disp
+204:      26868         -  mtkfb
+207:          0         -  MAU2
+208:          0         -  mtk_disp
+209:          0         -  mtk_disp
+220:      33893         -  SGX ISR
+224:          0         -  MD-WDT
+232:          0         -  CIRQ
+FIQ:              fiq_glue
+IPI0:          0          0          0          0  Timer broadcast interrupts
+IPI1:      75373     107711      43906      30716  Rescheduling interrupts
+IPI2:         72         65         63         61  Function call interrupts
+IPI3:         16         15          1          6  Single function call interrupts
+IPI4:          0          0          0          0  CPU stop interrupts
+IPI5:          0          0          0          0  CPU backtrace
+Err:          0

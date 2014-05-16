@@ -1,0 +1,84 @@
+ram console header, hw_status: 2, fiq step 0.
+bin log 0.
+uency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+[58568.201753] (0)[3510:Binder_5][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+[58568.251348] (0)[22252:kworker/0:2][THERMAL/MONITOR] [.get_temp] tz: mtktspmic dur: 20687
+[58568.366066] (0)[23086:re-initialized>][Power/Alarm] alarm_open (23086:23086)
+[58568.681572] (0)[22462:tx_thread][Power/Kernel]:ws deactivate->	WLAN Timer
+[58568.936319] (0)[23101:re-initialized>][Power/Alarm] alarm_open (23101:23101)
+[58569.160804] (0)[22462:tx_thread][wlan] N=0 b=1 c=3 s=0 e=1 h=0 I=0x00 l=1 p=1
+[58569.271375] (0)[22252:kworker/0:2][THERMAL/MONITOR] [.get_temp] tz: mtktspmic dur: 20691
+[58569.360776] (0)[22462:tx_thread][wlan] N=0 b=1 c=3 s=0 e=1 h=0 I=0x00 l=1 p=1
+[58569.412102] (0)[23121:re-initialized>][Power/Alarm] alarm_open (23121:23121)
+[58569.880615] (0)[23086:ndroid.systemui][Power/Kernel]:ws deactivate->	EINT wakelock
+[58570.152694] (0)[23086:ndroid.systemui][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+[58570.162094] (0)[23086:ndroid.systemui][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+[58570.167445] (0)[23086:ndroid.systemui][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+[58570.179540] (0)[23086:ndroid.systemui][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+[58570.203148] (0)[23086:ndroid.systemui][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+[58570.236942] (0)[23086:ndroid.systemui][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+[58570.291326] (0)[22252:kworker/0:2][THERMAL/MONITOR] [.get_temp] tz: mtktspmic dur: 20651
+[58570.888604] (0)[23086:ndroid.systemui][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+[58570.897730] (0)[23086:ndroid.systemui][Power/GPU_DVFS] mt_gpufreq_keep_frequency_non_OD_get, mt_gpufreq_keep_specific_frequency = 0
+[58571.070758] (0)[23085:pool-1-thread-1][Power/Alarm] alarm_release (23070:23085)(0)
+[58571.311463] (0)[22252:kworker/0:2][THERMAL/MONITOR] [.get_temp] tz: mtktspmic dur: 20753
+[58571.620808] (0)[22462:tx_thread][wlan] N=0 b=1 c=3 s=0 e=1 h=0 I=0x00 l=1 p=1
+[58571.701476] (0)[22462:tx_thread][Power/Kernel]:ws deactivate->	WLAN Timer
+[58571.702241] (0)[22462:tx_thread][Power/Kernel]:ws deactivate->	WLAN Timer
+[58571.820734] (0)[22462:tx_thread][wlan] N=0 b=1 c=3 s=0 e=1 h=0 I=0x00 l=1 p=1
+[58572.331397] (0)[22252:kworker/0:2][THERMAL/MONITOR] [.get_temp] tz: mtktspmic dur: 20709
+[58572.340632] (0)[23086:ndroid.systemui][Power/Kernel]:ws deactivate->	EINT wakelock
+[58572.379614] (0)[23142:re-initialized>][Power/Alarm] alarm_open (23142:23142)
+[58572.850790] (0)[22462:tx_thread][wlan] N=0 b=1 c=3 s=0 e=1 h=0 I=0x00 l=1 p=1
+[58572.855864] (0)[22886:Thread-1566][SSW] sim_switch_shutdown 
+[58572.855920] (0)[22886:Thread-1566][GPS: ] mt3326_gps_power: null pointer!!
+[58572.856145] (0)[22252:kworker/0:2][USB] android_work: sent uevent USB_STATE=HWDISCONNECTED
+[58572.856161] (0)[22252:kworker/0:2][USB] android_work: did not send zero uevent
+[58572.857410] (0)[22886:Thread-1566]musb_platform_disable, 0, 0
+[58572.857499] (0)[22886:Thread-1566]******** MT6589 auxadc driver shutdown!! ********
+[58572.857527] (0)[22886:Thread-1566][LED]mt65xx_leds_shutdown
+[58572.857536] (0)[22886:Thread-1566][LED]mt65xx_leds_shutdown: turn off backlight
+[58572.857548] (0)[22886:Thread-1566][LED]PMIC#7:0
+[58572.857584] (0)[22886:Thread-1566][LED]PMIC#6:0
+[58572.857618] (0)[22886:Thread-1566][LED]PMIC#0:0
+[58572.857632] (0)[22886:Thread-1566][LED]backlight control through BLS!!1
+[58572.857643] (0)[22886:Thread-1566][DDP]disp_bls_set_backlight: 0, gBLSPowerOn = 0
+[58572.857676] (0)[22886:Thread-1566][LED]#6:0
+[58572.857686] (0)[22886:Thread-1566]mt65xx_leds_set_cust: set brightness, name:lcd-backlight, mode:6, level:0
+[58572.857700] (0)[22886:Thread-1566][DDP]disp_bls_set_backlight: 0, gBLSPowerOn = 0
+[58572.900711] (0)[22886:Thread-1566]+AudDrv_shutdown 
+[58572.900722] (0)[22886:Thread-1566]-AudDrv_shutdown 
+[58572.901233] (0)[22886:Thread-1566][PWRAP] shutdown
+[58572.901274] (0)[22886:Thread-1566][GPIO] shutdown
+[58572.901306] (0)[22886:Thread-1566]******** MTK WDT driver shutdown!! ********
+[58572.901317] (0)[22886:Thread-1566]******** MTK WDT driver shutdown done ********
+[58572.901340] (0)[22886:Thread-1566][vibrator]vib_shutdown: enter!
+[58572.901374] (0)[22886:Thread-1566]GFMT shutdown
+[58572.901449] (0)[22886:Thread-1566][Power/Battery] [FGADC] MT6320 FGADC driver shutdown!! 
+[58572.901479] (0)[22886:Thread-1566][Power/Battery] ******** MT6320 battery driver shutdown!! ********
+[58572.901519] (0)[22886:Thread-1566]mtkfb_vsync device shutdown
+[58572.901540] (0)[22886:Thread-1566]ALMK driver shutdown
+[58572.901608] (0)[22886:Thread-1566]
+[58572.901613] (0)[22886:Thread-1566]ccci_helper_shutdown
+[58572.901634] (0)[22886:Thread-1566]mt_pwm_shutdown
+[58572.901658] (0)[22886:Thread-1566][Power/PMIC] ******** MT6320 pmic driver shutdown!! ********
+[58572.901690] (0)[22886:Thread-1566]Restarting system with command 'Checkin scheduled forced'.
+[58572.901703] (0)[22886:Thread-1566]machine_shutdown: start, Proess(Thread-1566:22886)
+[58572.901714] (0)[22886:Thread-1566]Backtrace: 
+[58572.901743] (0)[22886:Thread-1566][<c0011ef4>] (dump_backtrace+0x0/0x10c) from [<c0612e14>] (dump_stack+0x18/0x1c)
+[58572.901757] (0)[22886:Thread-1566] r6:00000000 r5:ccffde80 r4:ccffde80 r3:c0879390
+[58572.901789] (0)[22886:Thread-1566][<c0612dfc>] (dump_stack+0x0/0x1c) from [<c000f554>] (machine_shutdown+0x34/0x50)
+[58572.901809] (0)[22886:Thread-1566][<c000f520>] (machine_shutdown+0x0/0x50) from [<c000f5c4>] (machine_restart+0x14/0x60)
+[58572.901831] (0)[22886:Thread-1566][<c000f5b0>] (machine_restart+0x0/0x60) from [<c00685d0>] (kernel_restart+0x38/0x60)
+[58572.901845] (0)[22886:Thread-1566] r5:ccffc000 r4:ccffde80
+[58572.901869] (0)[22886:Thread-1566][<c0068598>] (kernel_restart+0x0/0x60) from [<c00687ec>] (sys_reboot+0x1dc/0x1f4)
+[58572.901882] (0)[22886:Thread-1566] r4:00000000 r3:00000000
+[58572.901905] (0)[22886:Thread-1566][<c0068610>] (sys_reboot+0x0/0x1f4) from [<c000e500>] (ret_fast_syscall+0x0/0x30)
+[58572.901918] (0)[22886:Thread-1566] r8:c000e684 r7:00000058 r6:5d87fc98 r5:37800005 r4:62d952e8
+[58572.901947] (0)[22886:Thread-1566]Send IPI to stop CPUs...
+[58572.901957] (0)[22886:Thread-1566]machine_shutdown: done
+[58572.901967] (0)[22886:Thread-1566]Reboot:machine restart...
+[58572.906216] (0)[22886:Thread-1566]arch_reset: cmd = Checkin scheduled forced
+[58572.906605] (0)[22886:Thread-1566]wdt_arch_reset called@Kernel mode =
+[58572.906981] (0)[22886:Thread-1566]wdt_arch_reset called MTK_WDT_MODE =7d 
+[58572.907361] (0)[22886:Thread-1566]wdt_arch_reset called end  MTK_WDT_MODE =22000034 

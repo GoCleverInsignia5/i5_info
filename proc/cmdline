@@ -1,0 +1,1 @@
+console=ttyMT3,921600n1 vmalloc=530M slub_max_order=0 lcm=1-nt35590_hd720_dsi_vdo_thl fps=4954 lcm_type=1 pl_t=527 lk_t=3238 printk.disable_uart=1 boot_reason=4

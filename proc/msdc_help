@@ -1,0 +1,65 @@
+
+====================[msdc_help]=====================
+
+   LOG control:           echo 0 [host_id] [debug_zone] > msdc_debug
+          [debug_zone]       DMA:0x1,  CMD:0x2,  RSP:0x4,   INT:0x8,   CFG:0x10,  FUC:0x20,
+                             OPS:0x40, FIO:0x80, WRN:0x100, PWR:0x200, CLK:0x400, RW:0x1000, NRW:0x2000
+
+   DMA mode:
+          set DMA mode:      echo 1 0 [host_id] [dma_mode] [dma_size] > msdc_debug
+          get DMA mode:      echo 1 1 [host_id] > msdc_debug
+            [dma_mode]       0:PIO, 1:DMA, 2:SIZE_DEP
+            [dma_size]       valid for SIZE_DEP mode, the min size can trigger the DMA mode
+
+   SDIO profile:          echo 3 [enable] [time] > msdc_debug
+
+   CLOCK control:  
+          set clk src:       echo 4 0 [host_id] [clk_src] > msdc_debug
+          get clk src:       echo 4 1 [host_id] > msdc_debug
+            [clk_src]        0:SYS PLL(26Mhz), 1:3G PLL(197Mhz), 2:AUD PLL(208Mhz)
+
+   REGISTER control:
+          write register:    echo 5 0 [host_id] [register_offset] [value] > msdc_debug
+          read register:     echo 5 1 [host_id] [register_offset] > msdc_debug
+          write mask:        echo 5 2 [host_id] [register_offset] [start_bit] [len] [value] > msdc_debug
+          read mask:         echo 5 3 [host_id] [register_offset] [start_bit] [len] > msdc_debug
+          dump all:          echo 5 4 [host_id]> msdc_debug
+
+   DRVING control: 
+          set driving:       echo 6 0 [host_id] [clk_drv] [cmd_drv] [dat_drv] > msdc_debug
+          get driving:       echo 6 1 [host_id] > msdc_debug
+
+   DESENSE control: 
+          write register:    echo 7 0 [value] > msdc_debug
+          read register:     echo 7 1 > msdc_debug
+          write mask:        echo 7 2 [start_bit] [len] [value] > msdc_debug
+          read mask:         echo 7 3 [start_bit] [len] > msdc_debug
+
+   RW_COMPARE test:       echo 8 [host_id] [compare_count] > msdc_debug
+          [compare_count]    how many time you want to "write=>read=>compare"
+
+   SMP_ON_ONE_HOST test:  echo 9 [host_id] [thread_num] [compare_count] [multi_address] > msdc_debug
+          [thread_num]       how many R/W comparision thread you want to run at host_id
+          [compare_count]    how many time you want to "write=>read=>compare" in each thread
+          [multi_address]    whether read/write different address in each thread, 0:No, 1:Yes
+
+   SMP_ON_ALL_HOST test:  echo a [thread_num] [compare_count] [multi_address] > msdc_debug
+          [thread_num]       how many R/W comparision thread you want to run at each host
+          [compare_count]    how many time you want to "write=>read=>compare" in each thread
+          [multi_address]    whether read/write different address in each thread, 0:No, 1:Yes
+
+   SPEED_MODE control:
+          set speed mode:    echo b 0 [host_id] [speed_mode] [driver_type] [max_current] [power_control] > msdc_debug
+          get speed mode:    echo b 1 [host_id]
+            [speed_mode]       0:N/A,  1:HS,      2:SDR12,   3:SDR25,   4:SDR:50,  5:SDR104,  6:DDR
+            [driver_type]      0:N/A,  7:type A,  8:type B,  9:type C,  a:type D
+            [max_current]      0:N/A,  b:200mA,   c:400mA,   d:600mA,   e:800mA
+            [power_control]    0:N/A,  f:disable, 10:enable
+
+   DMA viloation:         echo c [host_id] [ops]> msdc_debug
+          [ops]              0:get latest dma address,  1:start violation test
+
+   NOTE: All input data is Hex number! 
+
+======================================================
+

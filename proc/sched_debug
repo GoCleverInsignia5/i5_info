@@ -1,0 +1,338 @@
+Sched Debug Version: v0.10, 3.4.5 #1
+ktime                                   : 1617747.964235
+sched_clk                               : 1680294.768339
+cpu_clk                                 : 1680294.768800
+jiffies                                 : 131774
+
+sysctl_sched
+  .sysctl_sched_latency                    : 6.666666
+  .sysctl_sched_min_granularity            : 1.500000
+  .sysctl_sched_wakeup_granularity         : 1.333332
+  .sysctl_sched_child_runs_first           : 0
+  .sysctl_sched_features                   : 24119
+  .sysctl_sched_tunable_scaling            : 1 (logaritmic)
+
+cpu#0: Online
+  .nr_running                    : 1
+  .load                          : 1024
+  .nr_switches                   : 869029
+  .nr_load_updates               : 42430
+  .nr_uninterruptible            : 10
+  .next_balance                  : 0.131861
+  .curr->pid                     : 2764
+  .clock                         : 1680293.474031
+  .cpu_load[0]                   : 2048
+  .cpu_load[1]                   : 1024
+  .cpu_load[2]                   : 512
+  .cpu_load[3]                   : 256
+  .cpu_load[4]                   : 128
+  .yld_count                     : 94
+  .sched_count                   : 900708
+  .sched_goidle                  : 77400
+  .avg_idle                      : 1000000
+  .ttwu_count                    : 644241
+  .ttwu_local                    : 563201
+
+cfs_rq[0]:/
+  .exec_clock                    : 260087.089792
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 6486358.497432
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : 0.000000
+  .nr_spread_over                : 580
+  .nr_running                    : 1
+  .load                          : 1024
+  .load_avg                      : 0.000000
+  .load_period                   : 0.000000
+  .load_contrib                  : 0
+  .load_tg                       : 0
+
+rt_rq[0]:/apps/bg_non_interactive
+  .rt_nr_running                 : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 700.000000
+
+rt_rq[0]:/apps
+  .rt_nr_running                 : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 800.000000
+
+rt_rq[0]:/
+  .rt_nr_running                 : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 950.000000
+
+runnable tasks:
+            task   PID         tree-key  switches  prio     exec-runtime         sum-exec        sum-sleep
+----------------------------------------------------------------------------------------------------------
+R             sh  2764   6486356.094098        88   120   6486356.094098        26.227383    259196.767093 /
+==========================================================================================================
+
+cpu#1: Offline
+  .nr_running                    : 0
+  .load                          : 0
+  .nr_switches                   : 155221
+  .nr_load_updates               : 7498
+  .nr_uninterruptible            : 0
+  .next_balance                  : 0.114833
+  .curr->pid                     : 0
+  .clock                         : 1509877.641868
+  .cpu_load[0]                   : 1536
+  .cpu_load[1]                   : 1145
+  .cpu_load[2]                   : 692
+  .cpu_load[3]                   : 458
+  .cpu_load[4]                   : 415
+  .yld_count                     : 86
+  .sched_count                   : 159481
+  .sched_goidle                  : 38127
+  .avg_idle                      : 782540
+  .ttwu_count                    : 70681
+  .ttwu_local                    : 15495
+
+cfs_rq[1]:/apps
+  .exec_clock                    : 25917.423619
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 455159.987043
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -6031198.510389
+  .nr_spread_over                : 425
+  .nr_running                    : 0
+  .load                          : 0
+  .load_avg                      : 6346.181073
+  .load_period                   : 8.680902
+  .load_contrib                  : 731
+  .load_tg                       : 1673
+  .se->exec_start                : 1509876.839329
+  .se->vruntime                  : 821090.139173
+  .se->sum_exec_runtime          : 25919.533774
+  .se->statistics.wait_start     : 0.000000
+  .se->statistics.sleep_start    : 0.000000
+  .se->statistics.block_start    : 0.000000
+  .se->statistics.sleep_max      : 0.000000
+  .se->statistics.block_max      : 0.000000
+  .se->statistics.exec_max       : 10.013846
+  .se->statistics.slice_max      : 17.327538
+  .se->statistics.wait_max       : 29.975308
+  .se->statistics.wait_sum       : 1438.225823
+  .se->statistics.wait_count     : 74528
+  .se->load.weight               : 2
+
+cfs_rq[1]:/
+  .exec_clock                    : 34256.193537
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 821072.007455
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -5665286.489977
+  .nr_spread_over                : 237
+  .nr_running                    : 0
+  .load                          : 0
+  .load_avg                      : 0.000000
+  .load_period                   : 0.000000
+  .load_contrib                  : 0
+  .load_tg                       : 0
+
+rt_rq[1]:/apps/bg_non_interactive
+  .rt_nr_running                 : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 0.000001
+
+rt_rq[1]:/apps
+  .rt_nr_running                 : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 0.000001
+
+rt_rq[1]:/
+  .rt_nr_running                 : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 0.000001
+
+runnable tasks:
+            task   PID         tree-key  switches  prio     exec-runtime         sum-exec        sum-sleep
+----------------------------------------------------------------------------------------------------------
+==========================================================================================================
+
+cpu#2: Offline
+  .nr_running                    : 0
+  .load                          : 0
+  .nr_switches                   : 87181
+  .nr_load_updates               : 3748
+  .nr_uninterruptible            : 0
+  .next_balance                  : 0.114732
+  .curr->pid                     : 0
+  .clock                         : 1509864.921791
+  .cpu_load[0]                   : 0
+  .cpu_load[1]                   : 29
+  .cpu_load[2]                   : 126
+  .cpu_load[3]                   : 210
+  .cpu_load[4]                   : 257
+  .yld_count                     : 76
+  .sched_count                   : 90299
+  .sched_goidle                  : 19940
+  .avg_idle                      : 614722
+  .ttwu_count                    : 42145
+  .ttwu_local                    : 6693
+
+cfs_rq[2]:/apps
+  .exec_clock                    : 16473.120288
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 427066.400228
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -6059292.097204
+  .nr_spread_over                : 323
+  .nr_running                    : 0
+  .load                          : 0
+  .load_avg                      : 156.889338
+  .load_period                   : 5.047579
+  .load_contrib                  : 31
+  .load_tg                       : 1673
+  .se->exec_start                : 1509838.810714
+  .se->vruntime                  : 713555.493920
+  .se->sum_exec_runtime          : 16474.037900
+  .se->statistics.wait_start     : 0.000000
+  .se->statistics.sleep_start    : 0.000000
+  .se->statistics.block_start    : 0.000000
+  .se->statistics.sleep_max      : 0.000000
+  .se->statistics.block_max      : 0.000000
+  .se->statistics.exec_max       : 10.008923
+  .se->statistics.slice_max      : 3.444693
+  .se->statistics.wait_max       : 16.816307
+  .se->statistics.wait_sum       : 884.584261
+  .se->statistics.wait_count     : 50031
+  .se->load.weight               : 2
+
+cfs_rq[2]:/
+  .exec_clock                    : 21137.514471
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 713560.540611
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -5772797.956821
+  .nr_spread_over                : 177
+  .nr_running                    : 0
+  .load                          : 0
+  .load_avg                      : 0.000000
+  .load_period                   : 0.000000
+  .load_contrib                  : 0
+  .load_tg                       : 0
+
+rt_rq[2]:/apps/bg_non_interactive
+  .rt_nr_running                 : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 0.000001
+
+rt_rq[2]:/apps
+  .rt_nr_running                 : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 0.000001
+
+rt_rq[2]:/
+  .rt_nr_running                 : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 0.000001
+
+runnable tasks:
+            task   PID         tree-key  switches  prio     exec-runtime         sum-exec        sum-sleep
+----------------------------------------------------------------------------------------------------------
+==========================================================================================================
+
+cpu#3: Offline
+  .nr_running                    : 0
+  .load                          : 0
+  .nr_switches                   : 60054
+  .nr_load_updates               : 2241
+  .nr_uninterruptible            : 0
+  .next_balance                  : 0.114735
+  .curr->pid                     : 0
+  .clock                         : 1509863.054329
+  .cpu_load[0]                   : 484
+  .cpu_load[1]                   : 458
+  .cpu_load[2]                   : 419
+  .cpu_load[3]                   : 354
+  .cpu_load[4]                   : 295
+  .yld_count                     : 43
+  .sched_count                   : 62134
+  .sched_goidle                  : 12179
+  .avg_idle                      : 509595
+  .ttwu_count                    : 29069
+  .ttwu_local                    : 3677
+
+cfs_rq[3]:/apps
+  .exec_clock                    : 12319.256503
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 376027.558526
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -6110330.938906
+  .nr_spread_over                : 264
+  .nr_running                    : 0
+  .load                          : 0
+  .load_avg                      : 5983.021252
+  .load_period                   : 6.563155
+  .load_contrib                  : 911
+  .load_tg                       : 1673
+  .se->exec_start                : 1509862.305022
+  .se->vruntime                  : 599109.034255
+  .se->sum_exec_runtime          : 12320.010352
+  .se->statistics.wait_start     : 0.000000
+  .se->statistics.sleep_start    : 0.000000
+  .se->statistics.block_start    : 0.000000
+  .se->statistics.sleep_max      : 0.000000
+  .se->statistics.block_max      : 0.000000
+  .se->statistics.exec_max       : 10.008693
+  .se->statistics.slice_max      : 10.894154
+  .se->statistics.wait_max       : 4.924692
+  .se->statistics.wait_sum       : 372.446662
+  .se->statistics.wait_count     : 37804
+  .se->load.weight               : 2
+
+cfs_rq[3]:/
+  .exec_clock                    : 14212.121837
+  .MIN_vruntime                  : 0.000001
+  .min_vruntime                  : 599109.034255
+  .max_vruntime                  : 0.000001
+  .spread                        : 0.000000
+  .spread0                       : -5887249.463177
+  .nr_spread_over                : 131
+  .nr_running                    : 0
+  .load                          : 0
+  .load_avg                      : 0.000000
+  .load_period                   : 0.000000
+  .load_contrib                  : 0
+  .load_tg                       : 0
+
+rt_rq[3]:/apps/bg_non_interactive
+  .rt_nr_running                 : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 0.000001
+
+rt_rq[3]:/apps
+  .rt_nr_running                 : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 0.000001
+
+rt_rq[3]:/
+  .rt_nr_running                 : 0
+  .rt_throttled                  : 0
+  .rt_time                       : 0.000000
+  .rt_runtime                    : 0.000001
+
+runnable tasks:
+            task   PID         tree-key  switches  prio     exec-runtime         sum-exec        sum-sleep
+----------------------------------------------------------------------------------------------------------
+==========================================================================================================
+

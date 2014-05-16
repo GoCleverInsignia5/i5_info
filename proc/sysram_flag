@@ -1,0 +1,4 @@
+
+[SYSRAM_ReadFlag]
+=========================================
+Sysram.DebugFlag = 0xFFFFFFFF

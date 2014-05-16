@@ -1,0 +1,27 @@
+----------------------------------------
+0	    BOOT PROF (unit:msec)
+----------------------------------------
+       527        : preloader
+      3238        : lk
+----------------------------------------
+      2757.278230 : Kernel_init_done
+      2867.915923 : INIT: on init start
+      3007.995230 : INIT:eMMC:Mount_START
+      6936.925769 : INIT:eMMC:Mount_END
+      6937.244154 : INIT:PROTECT:Mount_START
+      7050.472231 : INIT:PROTECT:Mount_END
+      7164.927615 : post-fs-data: on modem start
+      7246.094154 : INIT: eng build setting
+      8493.257462 : BOOT_Animation:START
+     15692.342385 : Android:PackageManagerService_Start
+     15960.267770 : Android:PMS_scan_START
+     16024.389847 : Android:PMS_scan_done:/system/framework
+     17687.461077 : Android:PMS_scan_done:/system/app
+     17690.879462 : Android:PMS_scan_done:/vendor/app
+     17693.572001 : Android:PMS_scan_data_start
+     19805.238308 : Android:PMS_scan_data_done:/data/app
+     19805.471078 : Android:PMS_scan_data_done:/data/app-private
+     19805.599155 : Android:PMS_scan_END
+     19950.901155 : Android:PMS_READY
+     27149.587463 : BOOT_Animation:END
+----------------------------------------

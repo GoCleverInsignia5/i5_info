@@ -1,0 +1,374 @@
+0xbf000000-0xbf03d000  249856 module_alloc_update_bounds+0x14/0x64 pages=60 vmalloc
+0xbf04b000-0xbf052000   28672 module_alloc_update_bounds+0x14/0x64 pages=6 vmalloc
+0xbf055000-0xbf061000   49152 module_alloc_update_bounds+0x14/0x64 pages=11 vmalloc
+0xbf065000-0xbf081000  114688 module_alloc_update_bounds+0x14/0x64 pages=27 vmalloc
+0xbf086000-0xbf08a000   16384 module_alloc_update_bounds+0x14/0x64 pages=3 vmalloc
+0xbf08c000-0xbf08e000    8192 module_alloc_update_bounds+0x14/0x64 pages=1 vmalloc
+0xbf090000-0xbf09e000   57344 module_alloc_update_bounds+0x14/0x64 pages=13 vmalloc
+0xbf0a4000-0xbf10d000  430080 module_alloc_update_bounds+0x14/0x64 pages=104 vmalloc
+0xbf11e000-0xbf125000   28672 module_alloc_update_bounds+0x14/0x64 pages=6 vmalloc
+0xbf127000-0xbf132000   45056 module_alloc_update_bounds+0x14/0x64 pages=10 vmalloc
+0xbf134000-0xbf13f000   45056 module_alloc_update_bounds+0x14/0x64 pages=10 vmalloc
+0xbf141000-0xbf164000  143360 module_alloc_update_bounds+0x14/0x64 pages=34 vmalloc
+0xbf16c000-0xbf16e000    8192 module_alloc_update_bounds+0x14/0x64 pages=1 vmalloc
+0xbf170000-0xbf192000  139264 module_alloc_update_bounds+0x14/0x64 pages=33 vmalloc
+0xbf19a000-0xbf1ba000  131072 module_alloc_update_bounds+0x14/0x64 pages=31 vmalloc
+0xbf1c3000-0xbf253000  589824 module_alloc_update_bounds+0x14/0x64 pages=143 vmalloc
+0xde004000-0xde007000   12288 slt_maxpower_loop_count_init+0x14/0xa4 pages=2 vmalloc
+0xde007000-0xde013000   49152 zisofs_init+0x14/0x34 pages=11 vmalloc
+0xde020000-0xde031000   69632 AudDrv_probe+0x100/0x208 ioremap
+0xde031000-0xde0f2000  790528 init_mlock_cnt+0x24/0xa8 pages=192 vmalloc
+0xde14b000-0xde14e000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xde14e000-0xde151000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xde151000-0xde153000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xde153000-0xde157000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xde1f1000-0xde5f7000 4218880 stp_dbg_init+0x50/0x1a4 [mtk_stp_wmt] pages=1029 vmalloc vpages
+0xde5f7000-0xde5fa000   12288 stp_dbg_init+0x50/0x1a4 [mtk_stp_wmt] pages=2 vmalloc
+0xde5fa000-0xde5fc000    8192 osal_malloc+0x10/0x14 [mtk_stp_wmt] pages=1 vmalloc
+0xde5fc000-0xde5fe000    8192 osal_malloc+0x10/0x14 [mtk_stp_wmt] pages=1 vmalloc
+0xde5fe000-0xde600000    8192 osal_malloc+0x10/0x14 [mtk_stp_wmt] pages=1 vmalloc
+0xde600000-0xde643000  274432 osal_malloc+0x10/0x14 [mtk_stp_wmt] pages=66 vmalloc
+0xde643000-0xde64c000   36864 osal_malloc+0x10/0x14 [mtk_stp_wmt] pages=8 vmalloc
+0xde64c000-0xde6cd000  528384 osal_malloc+0x10/0x14 [mtk_stp_wmt] pages=128 vmalloc
+0xde738000-0xde73a000    8192 osal_kmalloc+0x10/0x14 pages=1 vmalloc
+0xde73a000-0xde73c000    8192 osal_kmalloc+0x10/0x14 pages=1 vmalloc
+0xde762000-0xde764000    8192 md_init+0x58/0x308 [ccci_plat] ioremap
+0xde764000-0xde766000    8192 md_init+0x1e4/0x308 [ccci_plat] ioremap
+0xde766000-0xde768000    8192 md_init+0x1fc/0x308 [ccci_plat] ioremap
+0xde768000-0xde76a000    8192 md_init+0x214/0x308 [ccci_plat] ioremap
+0xde76a000-0xde76c000    8192 md_init+0x22c/0x308 [ccci_plat] ioremap
+0xde780000-0xde7a1000  135168 binder_mmap+0x84/0x240 ioremap
+0xde800000-0xde9c5000 1855488 ccci_alloc_smem+0x114/0x59c [ccci_plat] ioremap
+0xdea00000-0xdebff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xdec00000-0xdedff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xdee00000-0xdefff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xdf000000-0xdfd01000 13635584 mtkfb_probe+0x218/0x5d8 ioremap
+0xdfe6c000-0xdfe6f000   12288 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xdfe6f000-0xdfe71000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xdfe71000-0xdfe73000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xdfe73000-0xdfe75000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xdfe75000-0xdfe77000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xdfe77000-0xdfe7f000   32768 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xdfe7f000-0xdfe91000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xdfe91000-0xdfe93000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xdfe97000-0xdfe9c000   20480 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xdfe9c000-0xdfe9e000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xdfe9e000-0xdffb3000 1134592 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xdffc0000-0xdffd1000   69632 _IORemapWrapper+0x40/0x68 [pvrsrvkm] ioremap
+0xe0000000-0xe01ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe0200000-0xe03ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe0400000-0xe05ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe0600000-0xe07ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe0800000-0xe09ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe0a00000-0xe0bff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe0c79000-0xe0c7b000    8192 dm_vcalloc+0x2c/0x38 pages=1 vmalloc
+0xe0c95000-0xe0c97000    8192 seq_read+0x3e4/0x4a0 pages=1 vmalloc
+0xe0cca000-0xe0cce000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe0cce000-0xe0cd2000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe0cd2000-0xe0cd5000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe0cd5000-0xe0cd7000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0cd7000-0xe0cd9000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0cd9000-0xe0ceb000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0ceb000-0xe0ced000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0ced000-0xe0cef000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0cef000-0xe0cf1000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0cf1000-0xe0cf3000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0cf3000-0xe0cf5000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0cf5000-0xe0cf7000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0cf7000-0xe0d09000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0d09000-0xe0d0b000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0d0b000-0xe0d0d000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0d0d000-0xe0d0f000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0d0f000-0xe0d11000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0d13000-0xe0d15000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0d15000-0xe0d17000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0d17000-0xe0d19000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0d19000-0xe0d22000   36864 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0d22000-0xe0d24000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0d24000-0xe0d26000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0d26000-0xe0d2a000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0d2a000-0xe0d2e000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe0e00000-0xe0fff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe1125000-0xe112e000   36864 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe112e000-0xe1130000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe1130000-0xe1132000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe1132000-0xe1136000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe1136000-0xe113a000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe113a000-0xe113c000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe1400000-0xe15ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe1800000-0xe19ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe1a0f000-0xe1a11000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe1a11000-0xe1a13000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe1a13000-0xe1a15000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe1aa1000-0xe1abf000  122880 wlanAdapterCreate+0x1c/0x54 [wlan_mt6628] pages=29 vmalloc
+0xe1abf000-0xe1ac1000    8192 nicAllocateAdapterMemory+0x58/0x2dc [wlan_mt6628] pages=1 vmalloc
+0xe1ac1000-0xe1ac5000   16384 nicAllocateAdapterMemory+0xa0/0x2dc [wlan_mt6628] pages=3 vmalloc
+0xe1af9000-0xe1aff000   24576 nicAllocateAdapterMemory+0xf0/0x2dc [wlan_mt6628] pages=5 vmalloc
+0xe1b01000-0xe1b04000   12288 p2PAllocInfo+0x2e4/0x368 [wlan_mt6628] pages=2 vmalloc
+0xe1b04000-0xe1b0f000   45056 p2PAllocInfo+0x2f0/0x368 [wlan_mt6628] pages=10 vmalloc
+0xe1b0f000-0xe1b11000    8192 p2PAllocInfo+0x300/0x368 [wlan_mt6628] pages=1 vmalloc
+0xe1b11000-0xe1b13000    8192 p2PAllocInfo+0x310/0x368 [wlan_mt6628] pages=1 vmalloc
+0xe1b13000-0xe1b15000    8192 p2PAllocInfo+0x320/0x368 [wlan_mt6628] pages=1 vmalloc
+0xe1c00000-0xe1dff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe1e00000-0xe1fff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe2400000-0xe25ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe2600000-0xe27ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe2937000-0xe293b000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2941000-0xe2945000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe2955000-0xe2957000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe29be000-0xe29c1000   12288 xt_alloc_table_info+0xb8/0xec pages=2 vmalloc
+0xe29c1000-0xe29c4000   12288 xt_alloc_table_info+0xb8/0xec pages=2 vmalloc
+0xe29c4000-0xe29c7000   12288 xt_alloc_table_info+0xb8/0xec pages=2 vmalloc
+0xe29c7000-0xe29ca000   12288 xt_alloc_table_info+0xb8/0xec pages=2 vmalloc
+0xe29d0000-0xe29d4000   16384 xt_alloc_table_info+0xb8/0xec pages=3 vmalloc
+0xe29d4000-0xe29d8000   16384 xt_alloc_table_info+0xb8/0xec pages=3 vmalloc
+0xe29d8000-0xe29dc000   16384 xt_alloc_table_info+0xb8/0xec pages=3 vmalloc
+0xe29dc000-0xe29e0000   16384 xt_alloc_table_info+0xb8/0xec pages=3 vmalloc
+0xe29e6000-0xe29ea000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe29ea000-0xe29ed000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe29ed000-0xe29ef000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe29ef000-0xe29f1000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe29f1000-0xe2a03000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a03000-0xe2a05000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a05000-0xe2a17000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a17000-0xe2a19000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a19000-0xe2a1b000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a1b000-0xe2a1d000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a1d000-0xe2a1f000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a36000-0xe2a38000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a42000-0xe2a44000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a56000-0xe2a58000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a5c000-0xe2a5e000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a6c000-0xe2a70000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe2a70000-0xe2a73000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe2a73000-0xe2a75000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a75000-0xe2a77000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a77000-0xe2a89000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a89000-0xe2a8b000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a8b000-0xe2a9d000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a9d000-0xe2a9f000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2a9f000-0xe2aa1000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2aa1000-0xe2aa3000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2aa3000-0xe2aa5000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2aa8000-0xe2aaa000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2aaa000-0xe2aac000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2aac000-0xe2aae000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2aae000-0xe2ab0000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2abc000-0xe2abf000   12288 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2ac9000-0xe2acb000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2acd000-0xe2acf000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2ad5000-0xe2ad7000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2ad7000-0xe2ada000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe2ada000-0xe2adc000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2afc000-0xe2afe000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b06000-0xe2b0a000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe2b0a000-0xe2b0d000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe2b0d000-0xe2b0f000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b0f000-0xe2b11000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b11000-0xe2b23000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b23000-0xe2b25000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b25000-0xe2b37000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b37000-0xe2b39000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b39000-0xe2b3b000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b3b000-0xe2b3d000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b3d000-0xe2b3f000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b48000-0xe2b4a000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b4a000-0xe2b4c000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b50000-0xe2b54000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b54000-0xe2b56000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2b5e000-0xe2b60000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2ba4000-0xe2ba6000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2bb8000-0xe2bbc000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe2bdb000-0xe2bdd000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2bea000-0xe2bec000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe2bfe000-0xe2c00000    8192 dm_vcalloc+0x2c/0x38 pages=1 vmalloc
+0xe2c00000-0xe2dff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe2e00000-0xe2fff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe3000000-0xe31ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe3200000-0xe33ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe3400000-0xe35ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe3600000-0xe37ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe3800000-0xe39ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe3c00000-0xe3dff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe3e00000-0xe3fff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe4200000-0xe43ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe4400000-0xe45ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe4600000-0xe47ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe4800000-0xe49ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe4a00000-0xe4bff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe4c00000-0xe4dff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe5035000-0xe5037000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5060000-0xe5063000   12288 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5063000-0xe5065000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5065000-0xe5067000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5067000-0xe5069000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe508b000-0xe508f000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe508f000-0xe5092000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe5092000-0xe5094000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5094000-0xe5096000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5096000-0xe50a8000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe50a8000-0xe50aa000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe50aa000-0xe50bc000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe50bc000-0xe50be000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe50be000-0xe50c0000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe50c0000-0xe50c2000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe50c2000-0xe50c4000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe50cd000-0xe50cf000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe50cf000-0xe50d1000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe50d1000-0xe50d5000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe50d5000-0xe50d9000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe50d9000-0xe50db000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe50dd000-0xe50df000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5123000-0xe5125000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5126000-0xe5128000    8192 dm_vcalloc+0x2c/0x38 pages=1 vmalloc
+0xe5138000-0xe513a000    8192 dm_vcalloc+0x2c/0x38 pages=1 vmalloc
+0xe5143000-0xe5147000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe514f000-0xe5151000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5157000-0xe5159000    8192 dm_vcalloc+0x2c/0x38 pages=1 vmalloc
+0xe5159000-0xe515c000   12288 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe515c000-0xe515e000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe515e000-0xe5160000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5160000-0xe5162000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5179000-0xe517b000    8192 dm_vcalloc+0x2c/0x38 pages=1 vmalloc
+0xe517d000-0xe5181000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe518b000-0xe518d000    8192 dm_vcalloc+0x2c/0x38 pages=1 vmalloc
+0xe519b000-0xe519d000    8192 dm_vcalloc+0x2c/0x38 pages=1 vmalloc
+0xe51a1000-0xe51a4000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe51ae000-0xe51b2000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe51b8000-0xe51ba000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe51ba000-0xe51bc000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe51bc000-0xe51be000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe51da000-0xe51dc000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5200000-0xe53ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe5400000-0xe55ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe5600000-0xe57ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe5800000-0xe59ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe5a53000-0xe5a57000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe5a57000-0xe5a59000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5a59000-0xe5a5b000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5a5d000-0xe5a5f000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5a75000-0xe5a79000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe5a79000-0xe5a7c000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe5a7c000-0xe5a7e000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5a7e000-0xe5a80000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5a80000-0xe5a92000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5a92000-0xe5a94000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5a94000-0xe5aa6000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5aa6000-0xe5aa8000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5aa8000-0xe5aaa000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5aaa000-0xe5aac000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5aac000-0xe5aaf000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe5aaf000-0xe5ab1000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5aba000-0xe5abc000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5abc000-0xe5abe000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5ac2000-0xe5ac6000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5ac6000-0xe5ac8000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5bbe000-0xe5bc2000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe5bc2000-0xe5bc5000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe5bc5000-0xe5bc7000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5c7a000-0xe5c7c000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5c85000-0xe5c87000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5c94000-0xe5c96000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5c9e000-0xe5ca2000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe5ca2000-0xe5ca4000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5cc4000-0xe5cc6000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5ea7000-0xe5ea9000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5ea9000-0xe5eab000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5ead000-0xe5eb1000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe5eb1000-0xe5eb4000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe5eb4000-0xe5eb6000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5eb6000-0xe5eb8000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5eb8000-0xe5eca000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5eca000-0xe5ecc000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5ecc000-0xe5ede000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5ede000-0xe5ee0000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5ee0000-0xe5ee2000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5ee2000-0xe5ee4000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5ee4000-0xe5ee6000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5eef000-0xe5ef1000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5efb000-0xe5efd000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe5f0d000-0xe5f0f000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe60bd000-0xe60c1000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe60f5000-0xe60f7000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe60f7000-0xe60f9000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe60fb000-0xe60fd000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6105000-0xe6109000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe6109000-0xe610c000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe610c000-0xe610e000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe610e000-0xe6110000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6110000-0xe6122000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6122000-0xe6124000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6124000-0xe6136000   73728 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6136000-0xe6138000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6138000-0xe613a000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe613a000-0xe613c000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe613c000-0xe613e000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6152000-0xe6154000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6154000-0xe6156000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe615a000-0xe615e000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6160000-0xe6162000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6162000-0xe6165000   12288 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6165000-0xe6168000   12288 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6168000-0xe616b000   12288 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe616b000-0xe616e000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe616e000-0xe6170000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6170000-0xe6172000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6172000-0xe617b000   36864 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe617b000-0xe617f000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe617f000-0xe6183000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6183000-0xe6185000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe61a9000-0xe61ab000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe61e6000-0xe61e8000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe61e8000-0xe61f1000   36864 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe61f1000-0xe61f3000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe61f3000-0xe61f5000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe61f5000-0xe61f7000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe61f7000-0xe61f9000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6200000-0xe63ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe65d5000-0xe65d8000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe65d8000-0xe65da000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe65da000-0xe65dc000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe65dc000-0xe65e5000   36864 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe65e5000-0xe65e9000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe65e9000-0xe65ed000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe65ed000-0xe65f0000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe65f0000-0xe65f2000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe65f2000-0xe65fb000   36864 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe65fb000-0xe65ff000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe65ff000-0xe6603000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6603000-0xe6605000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6628000-0xe662a000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6652000-0xe6654000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6664000-0xe6667000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe6667000-0xe6669000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6669000-0xe666b000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe666b000-0xe6674000   36864 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6674000-0xe6678000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6678000-0xe667c000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe667c000-0xe667e000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe667e000-0xe6681000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe6681000-0xe6683000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6683000-0xe6685000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6685000-0xe668e000   36864 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe668e000-0xe6692000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6692000-0xe6696000   16384 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6696000-0xe6698000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6698000-0xe669c000   16384 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=3 vmalloc
+0xe669c000-0xe669f000   12288 _VMallocWrapper+0x34/0x3c [pvrsrvkm] pages=2 vmalloc
+0xe669f000-0xe66a1000    8192 NewVMallocLinuxMemArea+0x8c/0x14c [pvrsrvkm] vmalloc vpages
+0xe6800000-0xe69ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe6c00000-0xe6dff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xe7400000-0xe75ff000 2093056 binder_mmap+0x84/0x240 ioremap
+0xf0000000-0xf0400000 4194304 iotable_init+0x0/0xd4 phys=10000000 ioremap
+0xf1000000-0xf1300000 3145728 iotable_init+0x0/0xd4 phys=11000000 ioremap
+0xf1300000-0xf1400000 1048576 pmd_empty_section_gap+0x0/0x58 ioremap
+0xf2000000-0xf2040000  262144 iotable_init+0x0/0xd4 phys=12000000 ioremap
+0xf2070000-0xf2080000   65536 iotable_init+0x0/0xd4 phys=12070000 ioremap
+0xf4000000-0xf5000000 16777216 iotable_init+0x0/0xd4 phys=14000000 ioremap
+0xf5000000-0xf6000000 16777216 iotable_init+0x0/0xd4 phys=15000000 ioremap
+0xf6000000-0xf6020000  131072 iotable_init+0x0/0xd4 phys=16000000 ioremap
+0xf6020000-0xf6030000   65536 iotable_init+0x0/0xd4 phys=16020000 ioremap
+0xf7000000-0xf7010000   65536 iotable_init+0x0/0xd4 phys=17000000 ioremap
+0xf8000000-0xf8010000   65536 iotable_init+0x0/0xd4 phys=8000000 ioremap
+0xf9000000-0xf9010000   65536 iotable_init+0x0/0xd4 phys=100000 ioremap
+0xfefe0000-0xff000000  131072 pcpu_get_vm_areas+0x0/0x5bc vmalloc

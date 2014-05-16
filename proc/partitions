@@ -1,0 +1,33 @@
+major minor  #blocks  name
+
+   7        0       5214 loop0
+   7        1       7293 loop1
+   7        2      15609 loop2
+   7        3      67615 loop3
+   7        5       3135 loop5
+   7        6      15609 loop6
+   7        7      10411 loop7
+ 179        0    3792896 mmcblk0
+ 179        1          1 mmcblk0p1
+ 179        2      10240 mmcblk0p2
+ 179        3      10240 mmcblk0p3
+ 179        4       6144 mmcblk0p4
+ 179        5     870400 mmcblk0p5
+ 179        6     129024 mmcblk0p6
+ 179        7    1048576 mmcblk0p7
+ 179        8    1677824 mmcblk0p8
+ 179       64       1024 mmcblk0boot1
+ 179       32       1024 mmcblk0boot0
+ 179       96   15440896 mmcblk1
+ 179       97   12689408 mmcblk1p1
+ 179       98    1679360 mmcblk1p2
+ 179       99    1068032 mmcblk1p3
+ 254        0       5213 dm-0
+ 254        1       7292 dm-1
+ 254        2      15608 dm-2
+ 254        3      67615 dm-3
+ 254        5       3134 dm-5
+ 254        6      15608 dm-6
+ 254        7      10411 dm-7
+   7        8       3135 loop8
+ 254        8       3134 dm-8

@@ -1,0 +1,23 @@
+
+=========================================
+sdio_enable_tune: 0x00000000
+sdio_iocon_dspl: 0x00000000
+sdio_iocon_w_dspl: 0x00000000
+sdio_iocon_rspl: 0x00000000
+sdio_pad_tune_rrdly: 0x00000000
+sdio_pad_tune_rdly: 0x00000000
+sdio_pad_tune_wrdly: 0x00000000
+sdio_dat_rd_dly0_0: 0x00000000
+sdio_dat_rd_dly0_1: 0x00000000
+sdio_dat_rd_dly0_2: 0x00000000
+sdio_dat_rd_dly0_3: 0x00000000
+sdio_dat_rd_dly1_0: 0x00000000
+sdio_dat_rd_dly1_1: 0x00000000
+sdio_dat_rd_dly1_2: 0x00000000
+sdio_dat_rd_dly1_3: 0x00000000
+sdio_clk_drv: 0x00000000
+sdio_cmd_drv: 0x00000000
+sdio_data_drv: 0x00000000
+sdio_tune_flag: 0x00000000
+=========================================
+

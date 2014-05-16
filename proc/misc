@@ -1,0 +1,44 @@
+ 27 usb_accessory
+ 28 mtp_usb
+ 29 android_adb
+ 30 network_throughput
+ 31 network_latency
+ 32 cpu_dma_latency
+ 33 touch
+ 34 als_ps
+ 35 msensor
+ 36 gsensor
+ 37 hwmsensor
+ 38 hid-keyboard
+ 39 mtk-kpd
+ 40 pmic_wrap
+ 41 mtfreqhopping
+ 42 mtgpio
+ 43 xt_qtaguid
+ 44 etm
+ 45 uvvp_hotplug
+ 46 uvvp_pmic
+ 47 uvvp_vdec
+ 48 eac
+ 49 misc-sd
+ 50 tpd_em_log
+ 51 ion
+ 52 log_ksystem
+ 53 xLog
+ 54 aed1
+ 55 aed0
+ 56 alarm
+ 57 log_system
+ 58 log_radio
+ 59 log_events
+ 60 log_main
+ 61 ashmem
+ 62 binder
+236 device-mapper
+223 uinput
+  1 psaux
+200 tun
+237 loop-control
+ 63 sw_sync
+229 fuse
+231 snapshot
