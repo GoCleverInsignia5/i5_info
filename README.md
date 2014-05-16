@@ -1,1 +1,1 @@
-It's info repo for GoClever Insignia 5
+It's info-repo for GoClever Insignia 5
